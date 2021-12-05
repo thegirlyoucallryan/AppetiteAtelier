@@ -1,0 +1,70 @@
+
+.searchContainer{
+    width: 80%;
+    overflow: hidden;
+    float: left;
+
+}
+.searchBar{
+    color: #3f4a5a;
+    width: 30%;
+    padding: .6rem;
+    margin: 1rem;
+    border-radius: 4px;
+    border: 1.2px solid #405955;
+    background-color: white;
+    
+
+}
+
+form{
+    background-color: #3f4a5a;
+    border-bottom: 1px solid grey;
+
+}
+
+
+.searchBar::placeholder{
+    color: #5daa9d;
+    border: none;
+   
+}
+
+.searchBar:focus{
+    background-color:  #D5F2ED;
+    color:  #3f4a5a;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+    outline: none;
+  
+  
+}
+
+.button{
+    background-color: #A3D9C9;
+    padding: .6rem;
+    width: 6rem;
+    border: none;
+    border-radius: 3px;
+    color: #405955;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.button:hover{
+    color:#f19874;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+}
+
+.button:active{
+    transform: scale(.98)
+}
+
+.rejectionMessage{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    color: #3f4a5a;
+    padding: 8rem 6rem ;
+}
+
+

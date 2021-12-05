@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce&family=Festive&display=swap');
+.header {
+     background-image: linear-gradient(
+    #B4D9CE 50%,
+    #F5FFFA 50%
+  );
+  width: 100%;
+  background-size: 40px 40px;
+  display: flex;
+  justify-content: center;
+ }
+
+
+
+.title {
+  text-align: center;
+  width: 40%;
+  padding: 1rem 4rem;
+
+  background-color: rgba(255, 255, 255, 0.986);
+  clip-path: polygon(50% 0%, 80% 50%, 50% 100%, 20% 50%);
+
+}
+
+.border {
+  /* border: 1px solid white; */
+  padding: 1.5rem;
+  /* border-top: 1px solid rgb(96, 156, 148);
+  border-bottom: 1px solid rgb(156, 223, 195); */
+  box-shadow: 0 1px 9px #fd4d4d;
+  color: rgb(41, 48, 44);
+  font-family: Birthstone Bounce;
+  text-transform: capitalize;
+  font-size: 3.5rem;
+  font-weight: 100;
+  letter-spacing: 5px;
+  
+}

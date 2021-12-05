@@ -1,0 +1,136 @@
+
+
+.recipeBlock{
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+
+  
+   
+   
+    
+}
+
+.recipeTitle{
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 40%;
+    padding: 2rem;
+    color: #465164;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-family: Festive Display;
+  
+    font-weight: 100;
+    
+}
+
+.recipeLevel{
+    display: flex;
+    padding: .5rem 35rem;
+    justify-content: space-evenly ;
+
+}
+
+.time{
+    font-size: 14px;
+    color: #fd4d4d;
+    padding: .2rem 1rem;
+}
+
+.image{
+  
+    flex: 1;
+   
+}
+
+
+.detailContainer{
+  text-align: center;
+  
+  
+}
+
+.ingredients{
+    color:  #618683 !important;
+    padding: .5rem 2rem;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+   
+
+    
+}
+
+.button{
+    margin: 4rem;
+}
+
+.instructionLink{
+    padding: 1rem 1.2rem;
+    text-decoration: none;
+    
+    color:white;
+    background-color:#313c4e ;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin: 3rem;
+   
+}
+
+.instructionLink:hover{
+    cursor: pointer;
+    color:#fd4d4d;
+    border-radius: 0;
+    transition: all 1s;
+    
+}
+
+.imageBox{
+    /* background-color: #38746238; */
+   
+ 
+}
+
+.titlebox{
+    /* background-color: #b4d9ce2f;
+    border-top: 1px solid navy; */
+}
+
+.nutritionBox{
+    background-color:#b4d9ce;
+    padding: 4rem;
+   
+    
+    
+}
+
+li{
+    list-style: none;
+}
+
+.leftCol{
+    font-size: 12px;
+    width: 80%;
+}
+
+.rightCol{
+    font-size: 12px;
+    width: 80%;
+    float: right;
+    margin-top: -34.5rem;
+}
+
+
+.sansNutrition{
+    
+    color:#fd4d4d;
+    padding: 2rem 0rem;
+    font-size: 22px;
+    font-style: italic;
+
+    
+}

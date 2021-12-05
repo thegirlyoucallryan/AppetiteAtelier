@@ -1,0 +1,54 @@
+
+.link{
+    text-decoration: none;
+    display: flex;
+ 
+    
+ 
+   
+    
+
+}
+
+body{
+    background-color: #fbfbf8f6;
+   
+   
+}
+
+.title{
+    color: #3f4a5a;
+    margin: 1rem;
+    text-decoration: none;
+    width: 60%;
+    
+   
+
+}
+.container{
+    display:inline-flex;
+
+    
+
+
+
+
+  
+}
+ 
+
+
+
+.li{
+    background-image: linear-gradient( rgb(255, 255, 255), rgb(255, 255, 255));
+    margin: 1rem;
+    box-shadow: 0 3px 5px 1px rgb(204, 195, 195);
+    padding: 1.2rem;
+    list-style: none;
+   
+     
+
+    
+    
+   
+}
