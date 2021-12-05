@@ -50,8 +50,11 @@ const RecipeItem = (props) => {
 
   let id = props.match.params.recipeId;
 
-  useEffect(async function () {
-          await fetchRecipeHandler(id);
+  useEffect(() => {
+      async function fetchData(){
+        await fetchRecipeHandler(id);
+      }
+          fetchData()
       }, [id])
   
 
