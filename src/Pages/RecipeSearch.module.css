@@ -68,3 +68,10 @@ form{
 }
 
 
+.loading{
+    color: #fd4d4d;
+    padding: 4rem;
+    font-size: 39px;
+    font-family: Festive Display;
+    
+}

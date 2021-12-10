@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 import RecipeDetail from './RecipeDetails';
+import styles from './RecipeSearch.module.css'
 
 const RecipeItem = (props) => {
 
@@ -61,7 +62,7 @@ const RecipeItem = (props) => {
   return(
       
       <div>
-        { (!recipe) && <div>...Loading</div>}
+        { (!recipe) && <div className={styles.loading}>...Loading</div>}
 
     {(recipe) && <RecipeDetail 
         key={recipe[0].id}

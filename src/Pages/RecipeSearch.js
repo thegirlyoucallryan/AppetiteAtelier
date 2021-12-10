@@ -72,8 +72,12 @@ const RecipeSearch = () => {
 
 
     return(
+     
+
         <div>
-            
+    
+
+
             <form type="submit" onSubmit={submitHandler}> 
             <div className={styles.searchContainer}>
             <input className={styles.searchBar} type='text' placeholder="Search by Recipe or Ingredient" onChange={queryHandler} value={query} ></input>
@@ -81,14 +85,14 @@ const RecipeSearch = () => {
             </div>
             <NavBar />
             </form>
-     
-        
            
+      
+   
        
         <div>
-           
+       
             {(recipes.length > 0) && recipes.map((recipe) => (<RecipeList key={recipe.id} id={recipe.id} title={recipe.title} image={recipe.image} />))}
-            {(recipes.length === 0) && <h1 className={styles.rejectionMessage}>Recipe Not Found </h1>}
+            {(recipes.length === 0) && <h1 className={styles.rejectionMessage}>Search for a Recipe</h1>}
             
            
         </div>
